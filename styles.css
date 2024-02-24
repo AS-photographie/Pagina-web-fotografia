@@ -1,0 +1,77 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos específicos */
+#about, #portfolio, #pricing, #contact {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.container-sm p {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: 28px;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .pricing-card h2 {
+    color: #333;
+  }
+  .pricing-card p {
+    font-size: 18px;
+  }
+  .pricing-card .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .social-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;  }
+
+/* Estilos de pie de página */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
